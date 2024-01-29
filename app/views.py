@@ -13,7 +13,7 @@ def home(request):
             subject,f'From {name} \n {msg} \n Contact us: \n email : {email} Mobile : {mobile}',
             'darksimmon1@gmail.com',
             ['nihalgt220@gmail.com'],
-            
+                        
         )
 
     return render(request,'index.html')
